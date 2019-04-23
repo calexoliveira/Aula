@@ -4,10 +4,10 @@ import "./index.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 import "bootstrap/dist/css/bootstrap.css";
-
 import Contador from "./components/contador.jsx";
+import ExibirAviso from "./components/exibirAviso.jsx";
 
-ReactDOM.render(<Contador />, document.getElementById("root"));
+ReactDOM.render( < ExibirAviso / > , document.getElementById("root"));
 //registerServiceWorker();
 
 // If you want your app to work offline and load faster, you can change
